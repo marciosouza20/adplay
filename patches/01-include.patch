@@ -1,0 +1,29 @@
+Description: Fixes the source code
+Author: Daniel Baumann <daniel@debian.org>
+Last-Update: 2005-11-02
+diff -Naur adplay-1.4.orig/src/disk.cc adplay-1.4/src/disk.cc
+--- adplay-1.4.orig/src/disk.cc	2004-05-13 09:50:47.000000000 +0000
++++ adplay-1.4/src/disk.cc	2005-11-02 20:59:16.562601320 +0000
+@@ -21,8 +21,8 @@
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include <string.h>
+-#include <binwrap.h>
+-#include <binfile.h>
++#include <libbinio/binwrap.h>
++#include <libbinio/binfile.h>
+ 
+ #include "defines.h"
+ #include "disk.h"
+diff -Naur adplay-1.4.orig/src/disk.h adplay-1.4/src/disk.h
+--- adplay-1.4.orig/src/disk.h	2004-05-13 09:50:47.000000000 +0000
++++ adplay-1.4/src/disk.h	2005-11-02 20:58:34.944928168 +0000
+@@ -20,7 +20,7 @@
+ #ifndef H_DISK
+ #define H_DISK
+ 
+-#include <binio.h>
++#include <libbinio/binio.h>
+ 
+ #include "output.h"
+ 

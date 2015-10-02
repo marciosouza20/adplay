@@ -1,0 +1,16 @@
+Source: adplay
+Section: sound
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libadplug-dev, libasound2-dev [linux-any], libbinio-dev, libesd0-dev, libsdl-sound1.2-dev
+Standards-Version: 3.9.6
+Homepage: http://adplug.sourceforge.net/
+
+Package: adplay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: console-based OPL2 audio player
+ AdPlay is AdPlug's console-based frontend. AdPlug is a free, universal OPL2
+ audio playback library. AdPlay/UNIX supports the full range of AdPlug's file
+ format playback features. Despite this, at the moment, only emulated OPL2
+ output is supported by AdPlay, but this on a wide range of output devices.

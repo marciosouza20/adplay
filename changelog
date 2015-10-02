@@ -1,0 +1,111 @@
+adplay (1.7-1) unstable; urgency=medium
+
+  * QA upload.
+  * Upload to unstable.
+  * New upstream release.
+  * Modified the copyright file to format standard machine-readable.
+  * Set the license and the author correct for getopt * files in the
+    copyright file.
+  * Inserted header in the patch 01-include.patch.
+  * Modified the file debian/rules to use autoreconf.
+  * Autotools-dev removed the build-dep field in the control file.
+  * The watch file has been improved.
+
+ -- Marcio de Souza Oliveira <m.desouza20@gmail.com>  Thu, 14 May 2015 23:07:30 -0300
+
+adplay (1.6-3) experimental; urgency=medium
+
+  * QA upload.
+  * Creating the watch file.
+  * Enables hardening options in rules file.
+
+ -- Marcio de Souza Oliveira <m.desouza20@gmail.com>  Fri, 17 Apr 2015 09:47:26 -0300
+
+adplay (1.6-2) unstable; urgency=medium
+
+  * QA upload.
+  * Set maintainer name to Debian QA Group <packages@qa.debian.org>.
+  * Switch to dh and packaging format 3.0. (Closes: #668032)
+  * Use linux-any instead of hardcoded list of architectures. (Closes:
+    #634468).
+  * Use dh with --with autotools-dev. (Closes: #751995).
+  * Use Homepage field to point to upstream homepage. (Closes: #615178).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 23 Sep 2014 20:13:52 +0200
+
+adplay (1.6-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/control:
+    - Maintainer email address was invalid and bounced. Update it to use a
+      valid address. Patch by Nathan Handler <nhandler@ubuntu.com>
+      Closes: #675214.
+
+ -- Willi Mann <willi@debian.org>  Thu, 14 Jun 2012 23:30:44 -0500
+
+adplay (1.6-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Gürkan Sengün <gurkan@linuks.mine.nu>  Sun, 22 Apr 2007 16:57:30 +0200
+
+adplay (1.5-6) unstable; urgency=low
+
+  * New maintainer. (Closes: #407626)
+
+ -- Gürkan Sengün <gurkan@linuks.mine.nu>  Tue, 17 Apr 2007 16:40:38 +0200
+
+adplay (1.5-5) unstable; urgency=low
+
+  * Orphaning package.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 20 Jan 2007 10:05:00 +0100
+
+adplay (1.5-4) unstable; urgency=low
+
+  * Minor cleanups.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 19 Jan 2007 10:04:00 +0100
+
+adplay (1.5-3) unstable; urgency=low
+
+  * Rebuild against fixed adplug.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 17 Sep 2006 18:50:00 +0200
+
+adplay (1.5-2) unstable; urgency=low
+
+  * New email address.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu,  6 Jul 2006 07:25:00 +0200
+
+adplay (1.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Daniel Baumann <daniel.baumann@panthera-systems.net>  Sun, 25 Jun 2006 13:01:00 +0200
+
+adplay (1.4-4) unstable; urgency=low
+
+  * Adjusted Build-Depends for non-linux ports (Closes: #361462).
+
+ -- Daniel Baumann <daniel.baumann@panthera-systems.net>  Mon, 17 Apr 2006 21:22:00 +0100
+
+adplay (1.4-3) unstable; urgency=low
+
+  * Rebuild against the latest transition of libadplug.
+
+ -- Daniel Baumann <daniel.baumann@panthera-systems.net>  Fri, 25 Nov 2005 10:27:00 +0200
+
+adplay (1.4-2) unstable; urgency=low
+
+  * Added patch to update includes of new libbinio1c2 (Closes: #336762).
+  * Fixed depends on kfreebsd (Closes: #336850).
+
+ -- Daniel Baumann <daniel.baumann@panthera-systems.net>  Wed,  2 Nov 2005 21:50:00 +0100
+
+adplay (1.4-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Daniel Baumann <daniel.baumann@panthera-systems.net>  Wed, 11 May 2005 17:47:00 +0200
